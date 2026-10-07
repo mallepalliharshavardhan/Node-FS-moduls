@@ -1,1 +1,1 @@
-To practice the intended sequence, set data to something like Harsha is Writing and run each operation only after the previous one completes
+ Harsha is writing
