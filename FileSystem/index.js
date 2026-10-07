@@ -30,3 +30,13 @@
     }
     console.log(data)
   })
+
+   // ---------to addtxt in a txt file  --------------
+
+   fs.appendFile("memory.txt","for Adding text use appendFile ",(err)=>{
+    if(err){
+        console.log(err);
+        return
+    }
+    console.log("adding text")
+   })
