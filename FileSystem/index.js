@@ -114,3 +114,15 @@
         const user= data.parse(data)
         console.log(user.id)
     })
+
+    //---- creating log file ---------
+ 
+
+const log =`${new Date().toISOString()}-user logged in\n`;
+    fs.appendFile("app.log",log,(err)=>{
+        if(err){
+            console.log(err)
+            return
+        }
+        console.log("app.log file created")
+    })
