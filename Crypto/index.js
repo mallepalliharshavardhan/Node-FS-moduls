@@ -8,7 +8,7 @@ console.log( randomValue.toString("hex")
 
 
 // Password Verification 
-const regPassword = "hallo123"
+const regPassword = "hallo13"
 
 const registeredHash = crypto
  .createHash("sha256")
@@ -21,7 +21,7 @@ const registeredHash = crypto
  const loginPassword = "hallo123";
 
  const loginHash = crypto
- .createHash("sha-256")
+ .createHash("sha256")
  .update(loginPassword)
  .digest("hex")
 
