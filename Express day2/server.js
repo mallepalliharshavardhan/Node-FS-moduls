@@ -1,10 +1,14 @@
 const express = require("express");
 
+const mobileRoutes = require("./routes/mobilesRoutes")
+
 const app = express();
 
 const port =7000;
 
 app.use(express.json());
+
+app.use("/mobiles",mobileRoutes);
 
 app.use((req,res,next)=>{
      console.log('Middleware Executes');
