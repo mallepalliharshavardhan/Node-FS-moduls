@@ -1,0 +1,2 @@
+The error is specifically Cannot find module 'flow-inspector'. Your index.js imports filesystem, which loads the old third-party filesystem package listed in package.json. That’s different from Node.js’s built-in File System module,
+ For FS practice, you can fix this yourself by changing
