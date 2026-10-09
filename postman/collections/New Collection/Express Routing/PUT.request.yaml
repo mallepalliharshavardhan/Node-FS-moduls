@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: http://localhost:7000/users
+method: PUT
+body:
+  type: json
+  content: ""
+order: 5000

@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: http://localhost:7000/products/?brand=google&mobile=pixel 11
+method: GET
+queryParams:
+  - key: brand
+    value: google
+    disabled: false
+    description: ""
+  - key: mobile
+    value: pixel 11
+    disabled: false
+    description: ""
+order: 3000
