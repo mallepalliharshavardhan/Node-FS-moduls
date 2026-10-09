@@ -1,0 +1,9 @@
+ 
+
+PUT  http://localhost:5000/users
+Content-Type: application/json
+
+{
+  "name": "Harsha",
+  "role": "React Developer"
+}
