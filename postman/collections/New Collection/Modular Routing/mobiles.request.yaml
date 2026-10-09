@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:7000/mobiles
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"brand\":\"Samsung\",\r
+
+    \    \"model\": \"galaxy\"\r
+
+    \r
+
+    }"
+order: 1000

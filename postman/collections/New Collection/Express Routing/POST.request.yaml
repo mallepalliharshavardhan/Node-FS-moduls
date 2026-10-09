@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: http://localhost:7000/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"harsha\",\r
+
+    \     \"role\":\"developer\"\r
+
+    }"
+order: 4000
